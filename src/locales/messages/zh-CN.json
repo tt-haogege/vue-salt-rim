@@ -9,7 +9,7 @@
     "sv-SE": "瑞典语",
     "zh-CN": "简体中文",
     "nl-NL": "荷兰",
-    "cs-CZ": "Czech",
+    "cs-CZ": "捷克语",
     "help": "协助翻译"
   },
   "shelf": {
@@ -17,7 +17,7 @@
     "cocktails": "我可以制作的鸡尾酒",
     "bar-stats": "酒吧统计",
     "recommended-cocktails": "推荐的鸡尾酒",
-    "locked_cocktails": "Cocktails I can't make"
+    "locked_cocktails": "我无法制作的鸡尾酒"
   },
   "server-error": "预期外的服务器错误",
   "ingredient": {
@@ -41,7 +41,7 @@
     "is-variety": "此成分为其他配料的变体",
     "information": "配料信息",
     "extra-cocktails": "添加到货架后可制作的鸡尾酒",
-    "clone-as-variety": "Duplicate as variant",
+    "clone-as-variety": "复制为变体",
     "dialog": {
       "select-substitutes": "编辑替代配料",
       "search-not-found": "找不到您想要的内容？",
@@ -81,7 +81,7 @@
     "default-units-help": "用于在选择鸡尾酒配方的配料时自动填充单位",
     "icicle-graph": "冰柱图",
     "csv-import-started": "CSV 导入已开始",
-    "potential-bar-shelf-cocktails": "Potential bar cocktails"
+    "potential-bar-shelf-cocktails": "潜在酒吧鸡尾酒"
   },
   "share": {
     "title": "分享",
@@ -92,8 +92,8 @@
     "copy-md": "复制为 Markdown",
     "copy-xml": "复制为 XML",
     "copy-json-ld": "复制 JSON+LD 架构",
-    "manual-copy-title": "Copy text manually",
-    "manual-copy-description": "Automatic copying failed. Please copy the text below manually:"
+    "manual-copy-title": "手动复制文本",
+    "manual-copy-description": "自动复制失败，请手动复制下方文本："
   },
   "settings": "设置",
   "logout": "退出登录",
@@ -361,7 +361,7 @@
   "utensils": {
     "title": "工具",
     "add": "添加工具",
-    "edit": "Edit utensil",
+    "edit": "编辑工具",
     "confirm-delete": "将永久删除名为 \"{name}\" 的工具。",
     "delete-success": "工具删除成功",
     "add-success": "工具添加成功",
@@ -381,7 +381,7 @@
     "confirm-delete": "将永久删除名为 \"{name}\" 的酒吧。",
     "confirm-leave": "离开酒吧 (\"{name}\") 将丢失所有相关数据。",
     "enable-invites": "启用邀请码加入功能",
-    "enable-invites-description": "This will allow other users to join your bar using an invite code",
+    "enable-invites-description": "启用此选项将允许其他用户使用邀请码加入您的酒吧",
     "import-base-cocktails": "导入默认鸡尾酒",
     "import-base-ingredients": "导入默认配料",
     "join-error": "无法加入酒吧",
@@ -406,11 +406,11 @@
     "optimization-started": "酒吧优化已启动",
     "optimize": "优化酒吧",
     "confirm-optimization": "此操作将运行酒吧优化程序",
-    "sync-data": "Synchronize data",
-    "confirm-datapack-sync": "This action will add missing data available in default datapack to this bar. Your existing recipes are not affected, but new data will be added. Please make sure that you have a backup or export of your data.",
-    "bars.datapack-sync-started": "Started default datapack sync in bar \"{name}\"",
-    "is-public": "Make bar public",
-    "is-public-description": "Allows public access to all your cocktail recipes via your bar URL"
+    "sync-data": "同步数据",
+    "confirm-datapack-sync": "此操作将从默认数据包添加缺失的数据到您的酒吧。现有配方不会受影响，但会添加新数据。请确保您有数据的备份或导出。",
+    "bars.datapack-sync-started": "已在酒吧 \"{name}\" 中启动默认数据包同步",
+    "is-public": "公开酒吧",
+    "is-public-description": "允许通过您的酒吧 URL 公开访问所有鸡尾酒配方"
   },
   "close": "关闭",
   "save-as": "另存为",
@@ -430,12 +430,12 @@
     "type-url-title": "URL",
     "type-json-title": "JSON",
     "type-ai-title": "文本",
-    "type-bookmarklet-title": "Bookmarklet",
+    "type-bookmarklet-title": "书签",
     "type-html-title": "HTML",
     "type-url-description": "从支持的网站导入",
     "type-json-description": "从 JSON 格式导入",
     "type-ai-description": "使用 AI 从纯文本导入配方",
-    "type-bookmarklet-description": "Create a bookmarklet to generate JSON format",
+    "type-bookmarklet-description": "创建一个书签来生成 JSON 格式",
     "type-html-description": "从原始的 HTML 格式导入",
     "notice": "现有成分、方法和酒杯类型将根据名称匹配（不区分大小写）。若成分不存在，将自动创建。常用单位将自动转换为 \"ml\"。根据合集大小，导入可能需要几分钟。",
     "type-csv-text-title": "CSV 文本",
@@ -527,10 +527,10 @@
     "add-shelf-cocktails": "从酒吧货架添加缺失的鸡尾酒",
     "export": "导出为 csv",
     "added-multiple-cocktails": "已添加多个鸡尾酒",
-    "add-to": "Add to menu category",
-    "menu-items": "entries",
-    "add-multiple": "Add entries to menu",
-    "add-single": "Add to menu"
+    "add-to": "添加到菜单分类",
+    "menu-items": "条目",
+    "add-multiple": "批量添加到菜单",
+    "add-single": "添加到菜单"
   },
   "bar": {
     "url": "自定义酒吧 URL",
@@ -642,7 +642,7 @@
   "target-volume-dilution-help": "加水稀释 {total}",
   "bar_shelf": {
     "cocktails": "酒吧货架鸡尾酒",
-    "locked_cocktails": "Locked bar cocktails"
+    "locked_cocktails": "酒吧锁定鸡尾酒"
   },
   "bar-shelf-ingredients": "酒吧货架配料",
   "target-pour-cost": "目标倒酒成本",
@@ -726,25 +726,25 @@
   "profile-public-shelf-description": "其他酒吧成员将可以根据您架子上的鸡尾酒进行筛选",
   "sort-random": "随机排序",
   "cocktails-varieties": "种类",
-  "cocktail-variety-of": "Cocktail is variety of",
+    "cocktail-variety-of": "鸡尾酒是变体",
   "cocktail-select-parent": "选择父级鸡尾酒",
   "year": "年",
   "public-bar": {
-    "signin": "Sign In",
-    "default-subtitle": "Your personal bar assistant",
-    "description-title": "Bar description",
-    "filter-title": "Filter cocktails",
-    "filters-sort-label": "Sort",
-    "filters-global-label": "Global filters",
-    "filters-bar-shelf-label": "Show bar shelf cocktails",
-    "filters-bar-shelf-help": "Only shows cocktails that can be made in the bar",
-    "filters-collections-label": "Collections",
-    "filters-search-placeholder": "Search cocktails by name...",
-    "sort-name-asc": "Name (A-Z)",
-    "sort-name-desc": "Name (Z-A)",
-    "sort-created-asc": "Oldest recipes",
-    "sort-created-desc": "Newest recipes",
-    "recipe-source": "Recipe source",
-    "view-recipe": "View recipe"
+    "signin": "登录",
+    "default-subtitle": "您的私人酒吧助手",
+    "description-title": "酒吧描述",
+    "filter-title": "筛选鸡尾酒",
+    "filters-sort-label": "排序",
+    "filters-global-label": "全局筛选",
+    "filters-bar-shelf-label": "显示酒吧货架鸡尾酒",
+    "filters-bar-shelf-help": "仅显示酒吧可制作的鸡尾酒",
+    "filters-collections-label": "合集",
+    "filters-search-placeholder": "按名称搜索鸡尾酒……",
+    "sort-name-asc": "名称 (A-Z)",
+    "sort-name-desc": "名称 (Z-A)",
+    "sort-created-asc": "最早配方",
+    "sort-created-desc": "最新配方",
+    "recipe-source": "配方来源",
+    "view-recipe": "查看配方"
   }
 }
